@@ -4,4 +4,8 @@ Host: localhost:4567
 curl -H "Content-Type: application/json " -X GET \
 {
 "https://api.twitch.tv/kraken/streams?channel=MarcoStyleNL,Orzanel,Dakillzor,Circon,QuickyBaby",
-  },
+  
+"triggerTime": 60, 
+  }
+  
+  ,
