@@ -1,11 +1,7 @@
 POST /payload HTTP/1.1
 
 Host: localhost:4567
-Content-Type: application/json
+curl -H "Content-Type: application/json " -X GET \
 {
-  "action": "opened",
-  "issue": {
-    "url": "https://api.twitch.tv/kraken/streams?channel=MarcoStyleNL,Orzanel,Dakillzor,Circon,QuickyBaby",
-    "number": 1347,
-    ...
+"https://api.twitch.tv/kraken/streams?channel=MarcoStyleNL,Orzanel,Dakillzor,Circon,QuickyBaby",
   },
